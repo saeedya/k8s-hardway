@@ -1,6 +1,6 @@
 #!/bin/bash
 
-suorce prerequisites.sh
+source ./prerequisites.sh
 
 if [ -d "./certs" ]; then
     echo "Directory exists."
